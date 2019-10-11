@@ -1,0 +1,5 @@
+def letter_count(s):
+    word = {}
+    for i in s:
+        word[i] = word.get(i, 0)+1
+    return word
